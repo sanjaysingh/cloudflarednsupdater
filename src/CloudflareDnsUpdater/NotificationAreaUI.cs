@@ -42,7 +42,6 @@ namespace CloudflareDnsUpdater
                 mnuExit.Click += MnuExit_Click; ;
 
                 notificationIcon.Visible = true;
-                HideWindow();
                 Application.Run();
 
             });
